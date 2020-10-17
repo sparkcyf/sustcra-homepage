@@ -70,14 +70,20 @@ DefaultContentLanguage = "zh-CN"                   # Theme i18n support
         identifier = "about-cn"
         name = "About"
         url = "about"
-        weight = -90
+        weight = -95
         pre = "user"
     [[menu.main]]
         identifier = "archives"
         name = "Archives"
         url = "archives"
-        weight = -70
+        weight = -90
         pre = "archives"
+      [[menu.main]]
+          identifier = "rss"
+          name = "Feed"
+          url = "index.xml"
+          weight = -80
+          pre = "rss"
 
 
 
