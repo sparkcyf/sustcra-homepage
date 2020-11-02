@@ -4,7 +4,7 @@ theme = "hugo-theme-stack"
 paginate = 5
 title = "CRA@SUSTech"
 disqusShortname = "hugo-theme-stack"            # Change it to your Disqus shortname before using
-DefaultContentLanguage = "zh-CN"                   # Theme i18n support
+DefaultContentLanguage = "zh-cn"                   # Theme i18n support
 
 [permalinks]
     post = "/p/:slug/"
