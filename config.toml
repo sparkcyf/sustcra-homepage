@@ -22,7 +22,7 @@ DefaultContentLanguage = "zh-cn"                   # Theme i18n support
     [params.sidebar]
         emoji = "💻"
         avatar = "img/avatar.png"
-        subtitle = "CRA的生活分享"
+        subtitle = "南方科技大学计算机协会"
 
     [params.article]
         math = false
