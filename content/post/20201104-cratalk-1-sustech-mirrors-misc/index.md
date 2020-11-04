@@ -19,15 +19,17 @@ keywords : [
 ]
 ---
 
-## 南方科技大学开源软件镜像站
+*The English version is in the second part of the article.*
+
+## 南方科技大学开源软件镜像站现已开放给校内各位师生使用
 
 由科学计算工程中心创办，计算机研究协会维护的南方科技大学开源软件镜像站现已正式开放给校内各位师生使用！您可以通过**域名 [mirrors.sustech.edu.cn](http://mirrors.sustech.edu.cn) (http/https)  或IP 172.18.6.198** 访问镜像站。镜像站目前提供Ubuntu, Debian, CentOS, Pypi, Anaconda等知名Linux发行版和开源软件的下载镜像。（完整镜像列表请见表格）
 
 ![南方科技大学开源软件镜像站](screenshot.png)
 
-## 有关公网访问和新增镜像的调查问卷
+### 有关公网访问和新增镜像的调查问卷
 
-目前，镜像站仅允许来自校园网的访问。**如果您希望在校外通过公网顺问镜像，请填写下方的调查问卷，相关结果将被反馈给科学与工程计算中心和信息中心，用于争取开放镜像站的公网访问。**
+目前，镜像站仅允许来自校园网的访问。**如果您希望在校外通过公网访问镜像，请填写下方的调查问卷，相关结果将被反馈给科学与工程计算中心和信息中心，用于争取开放镜像站的公网访问。**
 
 您也可以通过填写调查问卷问卷或在 [https://github.com/sustech-cra/issues](https://github.com/sustech-cra/issues) 新建Issue的方式建议南科大镜像站为某个开源项目镜像。
 
@@ -86,3 +88,28 @@ keywords : [
 |   ubuntu-ports   |      armhf, arm64 以及 powerpc 等平台的 Ubuntu 软件仓库      |
 | ubuntu-releases  |                包含近几年发行的 Ubuntu 的镜像                |
 |      ubuntu      |    流行的 Linux 发行版 Ubuntu 的安装镜像和官方软件包仓库     |
+
+# SUSTech Open Source Software Mirrors Starts to Serve for All SUSTech Members!
+
+![SUSTech Open Source Mirror](screenshot.png)
+
+Founded by the Center for Science and Computing Engineering(), Computer Research Association to maintain the Southern University of Science and Technology Open Source Software Mirror Station is now officially open to all students and faculty on campus to use! You can access the mirror site through the **domain [mirrors.sustech.edu.cn](http://mirrors.sustech.edu.cn) (http/https) or IP 172.18.6.198**. The mirror site currently provides downloadable images of well-known Linux distributions and open source software such as Ubuntu, Debian, CentOS, Pypi, Anaconda, etc.
+
+### Survey on Public IP Access and Mirror Requests
+
+Currently, the mirror site is only accessible from the campus network. **If you wish to access the mirror from off-campus via the public network, please fill out the questionnaire below and the results will be sent back to the Science and Engineering Computing Center and Information Center for use in the effort to open up public access to the mirror site. **
+
+You can also suggest that the SUSTech mirror site mirror an additional open source project by filling out the survey questionnaire or by creating a new Issue at [https://github.com/sustech-cra/issues](https://github.com/sustech-cra/issues).
+
+Survey questionnaire: [https://wj.qq.com/s2/7480461/a2b2/](https://wj.qq.com/s2/7480461/a2b2/)
+
+## CRAtalk #1 SUSTech Mirrors Misc
+
+![Poster](poster.jpg)
+
+How to build an open source software mirror? How does the software and other content in the mirror site stay in sync? What's the hidden history of SUSTech's open source software mirror? On Sunday of this week, we'll be hosting a workshop on mirror sites, introducing information about open source mirror sites at SUSTech and briefly explaining how to replace the software source with on-campus mirror sources to speed up open source software downloads and updates, everyone is welcomed!
+
+- Time: 2020-11-08 19:00-21:00
+- Location: Room 510, Lecture Hall 1
+- POC: Huaqing.Zhanghuai Ziqin.Wang Qingyuan.Fan
+  - Tencent Meeting: [https://meeting.tencent.com/s/SwcQ0RNRtRZy](https://meeting.tencent.com/s/SwcQ0RNRtRZy )  Password: 172186
