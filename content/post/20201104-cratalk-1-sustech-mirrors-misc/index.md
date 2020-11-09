@@ -113,3 +113,9 @@ How to build an open source software mirror? How does the software and other con
 - Location: Room 510, Lecture Hall 1
 - POC: Huaqing.Zhanghuai Ziqin.Wang Qingyuan.Fan
   - Tencent Meeting: [https://meeting.tencent.com/s/SwcQ0RNRtRZy](https://meeting.tencent.com/s/SwcQ0RNRtRZy )  Password: 172186
+
+## Notes and discussion of this CRAtalk
+
+Please download it from [CRA community](https://c.cra.moe/).
+
+- [https://c.cra.moe/t/topic/12/3](https://c.cra.moe/t/topic/12/3)
