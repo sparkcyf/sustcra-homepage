@@ -65,6 +65,6 @@ What is the vision of the SUSTC wiki and how to write a rigorous and engaging wi
   - Tencent Meeting ID: 821 963 124
   - Conference Password: 172186
 
-## 参考 Refernece
+## 参考 Reference
 
 - 南科wiki主页/SUSTC wiki homepage: [https://sustc.wiki/](https://sustc.wiki/)
