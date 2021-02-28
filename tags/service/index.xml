@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>service on CRA@SUSTech</title><link>https://blog.sustcra.com/tags/service/</link><description>Recent content in service on CRA@SUSTech</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 28 Feb 2021 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.sustcra.com/tags/service/index.xml" rel="self" type="application/rss+xml"/><item><title>南方科技大学开源软件镜像站现已正式开放公网访问</title><link>https://blog.sustcra.com/p/sustech-mirrors-public-ip/</link><pubDate>Sun, 28 Feb 2021 16:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/sustech-mirrors-public-ip/</guid><description>南方科技大学开源软件镜像站现已正式开放公网访问 在科学工程计算中心与网络信息中心的支持下，经过近一个月的稳定性测试，南方科技大学开源软件镜像站现已正式开启公网访问。
+不论是在校外还是校内，您现在均可以通过 https://mirrors.sustech.edu.cn/.访问镜像站。
+为节省学校出口带宽，外部访客在访问镜像站时会被限速。限速策略为：单IP最多 3 个并发连接，每个连接传输速度不超过 2000 KB/s。
+With the support of the CCSE and the ITS, the open source software mirror of Southern University of Science and Technology is now officially open for public access.
+Whether you are off-campus or on-campus, you can now access the mirror site through https://mirrors.sustech.edu.cn/.
+In order to save external bandwidth of campus, external visitors will be limited in speed when accessing the mirror site.</description></item><item><title>CRAtalk #1 SUSTech Mirrors Misc</title><link>https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/</link><pubDate>Wed, 04 Nov 2020 16:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/</guid><description>The English version is in the second part of the article.
+南方科技大学开源软件镜像站现已开放给校内各位师生使用 由科学计算工程中心创办，计算机研究协会维护的南方科技大学开源软件镜像站现已正式开放给校内各位师生使用！您可以通过域名 mirrors.sustech.edu.cn (http/https) 或IP 172.18.6.198 访问镜像站。镜像站目前提供Ubuntu, Debian, CentOS, Pypi, Anaconda等知名Linux发行版和开源软件的下载镜像。（完整镜像列表请见表格）
+南方科技大学开源软件镜像站
+有关公网访问和新增镜像的调查问卷 目前，镜像站仅允许来自校园网的访问。如果您希望在校外通过公网访问镜像，请填写下方的调查问卷，相关结果将被反馈给科学与工程计算中心和信息中心，用于争取开放镜像站的公网访问。
+您也可以通过填写调查问卷问卷或在 https://github.com/sustech-cra/issues 新建Issue的方式建议南科大镜像站为某个开源项目镜像。
+调查问卷：https://wj.qq.com/s2/7480461/a2b2/
+CRAtalk #1 SUSTech Mirrors Misc 活动海报
+如何搭建一个开源软件镜像站？镜像站中的软件等内容又是如何保持同步的？南科大的开源软件镜像站又有什么不为人知的历史？在本周周日，我们将会举办一次有关镜像站的Workshop，介绍南科大开源镜像站的相关信息，并向大家简要介绍如何更换为校内镜像源以加速开源软件下载和更新，欢迎一起来玩！
+时间：2020年11月8日19:00-20:00
+地点：一教 510
+主讲人：张淮化清，王子勤，樊青远
+腾讯会议：256 110 539 密码：172186
+链接：（会议模式）https://meeting.tencent.com/s/SwcQ0RNRtRZy （直播模式）https://meeting.tencent.com/l/Lg2VvYDb0Jh3
+附件：南科大镜像站现有软件镜像列表 名称 介绍 CRAN R 语言的可执行文件、源代码和说明文件，也收录了各种用户撰写的软件包 CTAN TeX 的各种发行版、软件包和文档 alpine Alpine Linux 的安装镜像和官方软件包仓库 anaconda 用于科学计算的 Python 发行版 apache Apache 基金会赞助的各个项目 archlinux Arch Linux 的安装镜像和官方软件包仓库 archlinuxcn 由 Arch Linux 中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等 armbian Armbian（面向 ARM 单板机的发行版）的软件源 centos CentOS 的安装镜像和官方软件包仓库 debian-nonfree Debian Linux 的非自由软件包仓库 debian-security Debian Linux 的安全更新 debian Debian Linux 的官方软件包仓库 deepin-cd Deepin Linux 的安装镜像 deepin Deepin Linux 的官方软件包仓库 docker-ce Docker Community Edition 的安装包 epel 企业版 Linux 附加软件包 fedora-altarch Fedora Linux 额外平台的安装镜像和官方软件包仓库 fedora Fedora Linux 的安装镜像和官方软件包仓库 homebrew-bottles homebrew-bottles homebrew Homebrew/Linuxbrew 的 taps（软件包描述文件 Git 仓库） kali-images Kali Linux 的安装镜像 kali Kali Linux 的官方软件包仓库 manjaro Manjaro Linux 的官方软件源 opensuse openSUSE 的安装镜像和官方软件包仓库 openwrt OpenWrt/LEDE 软件包镜像源 pypi Python 软件包索引源 raspberrypi 一些专为树莓派提供的 Debian 软件包 raspbian 为树莓派编译的 Debian 系统软件源 ros ROS提供一系列程序库和工具以帮助软件开发者创建机器人应用软件 ros2 ROS (Robot Operating System) 2.</description></item><item><title>CRA-ShareLaTeX</title><link>https://blog.sustcra.com/p/cra-sharelatex-intro/</link><pubDate>Thu, 15 Oct 2020 23:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/cra-sharelatex-intro/</guid><description>CRA-ShareLaTeX-妈妈再也不用担心我的 Overleaf 掉线了 [The English version is in the second part of the article.](#Introducing CRA-ShareLaTeX: The Self-hosted Overleaf on Campus)
+相信对每一位南科大的同学来说LaTeX都不陌生，在许多工科课程上，你都能听到他的名字。作为一门排版语言，Latex在数学/工程领域应用颇广，但由于Latex的复杂编译程序，中文支持问题和动辄好几G的软件空间，让不少同学望而却步。往往是纸上写好公式，编译好几个小时。
+LaTeX，是一种基于TEX的排版系统，由美国计算机科学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式系统的处理，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，不必一一亲自去设计或校对，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学、物理文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
+在线LaTeX编辑器Overleaf的出现解决了本地LaTeX的许多问题，它能让写作者直接通过浏览器编辑LaTeX代码，并提供“所见即所得”的即时编译结果。
+Overleaf官网简介
+可惜的是，在学校访问互联网上的Overleaf还是会出现访问缓慢，掉线等连接上的问题。同时，免费版的overleaf也无法实现多人协作（如下图，能够支持10人协作的账号收费15USD/月）和文档历史记录等对于团队项目至关重要的feature。
+Overleaf订阅的价格
+sharelatex界面，与overleaf基本一致
+为了让更多同学体验到LaTeX这门排版语言的魅力，并减少大家使用overleaf的障碍。南科大计算机协会与科学计算中心合作部署的校内 ShareLaTeX服务*（sharelatex和overleaf已经合并，两者代指的是同一个服务）*现已上线。本服务基于sharelatex的开源版本部署，并添加了完整的中文支持。
+公示与代码高亮支持
+同时，CRA-ShareLaTeX更支持不限人数的协作和不限制时间的文档编译，以优化同学们在撰写group project时的使用体验。
+引文支持
+如何体验 由于软件的限制，CRA-ShareLaTeX暂时无法开放自助注册。如果您想体验CRA-ShareLaTeX，请您发送一封主题为“sharelatex测试”的邮件至service@cra.moe。我们将会在第一时间给您发送开通的确认邮件。
+如果您对这项服务有任何疑问或是需要帮助，也欢迎您发邮件至service@cra.moe。
+参考 Overleaf文档 Introducing CRA-ShareLaTeX: The Self-hosted Overleaf on Campus The LaTeX is an familiar typesetting language to every student of SUSTech, and you may have heard his name in many engineering courses.</description></item></channel></rss>

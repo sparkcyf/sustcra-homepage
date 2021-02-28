@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CRA@SUSTech</title><link>https://blog.sustcra.com/</link><description>Recent content on CRA@SUSTech</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 28 Feb 2021 16:00:00 +0800</lastBuildDate><atom:link href="https://blog.sustcra.com/index.xml" rel="self" type="application/rss+xml"/><item><title>南方科技大学开源软件镜像站现已正式开放公网访问</title><link>https://blog.sustcra.com/p/sustech-mirrors-public-ip/</link><pubDate>Sun, 28 Feb 2021 16:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/sustech-mirrors-public-ip/</guid><description>&lt;img src="https://blog.sustcra.com/p/sustech-mirrors-public-ip/about.png" alt="Featured image of post 南方科技大学开源软件镜像站现已正式开放公网访问" />&lt;h1 id="南方科技大学开源软件镜像站现已正式开放公网访问">南方科技大学开源软件镜像站现已正式开放公网访问&lt;/h1>
+&lt;p>&lt;img src="./about.png" alt="" />&lt;/p>
+&lt;p>在科学工程计算中心与网络信息中心的支持下，经过近一个月的稳定性测试，南方科技大学开源软件镜像站现已正式开启公网访问。&lt;/p>
+&lt;p>不论是在校外还是校内，您现在均可以通过 &lt;a class="link" href="https://mirrors.sustech.edu.cn/" target="_blank" rel="noopener"
+>https://mirrors.sustech.edu.cn/&lt;/a>.访问镜像站。&lt;/p>
+&lt;p>&lt;strong>为节省学校出口带宽，外部访客在访问镜像站时会被限速。限速策略为：单IP最多 3 个并发连接，每个连接传输速度不超过 2000 KB/s。&lt;/strong>&lt;/p>
+&lt;p>With the support of the CCSE and the ITS, the open source software mirror of Southern University of Science and Technology is now officially open for public access.&lt;/p>
+&lt;p>Whether you are off-campus or on-campus, you can now access the mirror site through &lt;a class="link" href="https://mirrors.sustech.edu.cn/" target="_blank" rel="noopener"
+>https://mirrors.sustech.edu.cn/&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>In order to save external bandwidth of campus, external visitors will be limited in speed when accessing the mirror site. The speed limit policy is: up to 3 concurrent connections, each with a transfer speed of no more than 2000 KB/s.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>如果您在使用镜像站时遇到任何问题，或对镜像服务有任何建议，您可以任选以下方式之一进行反馈：&lt;/p>
+&lt;p>If you encounter any problems when using the SUSTech Mirrors, or have any suggestions for mirroring services, you can choose one of the following ways to give feedback:&lt;/p>
+&lt;ul>
+&lt;li>在&lt;a class="link" href="https://c.cra.moe/c/cra-service/mirrors/9" target="_blank" rel="noopener"
+>CRA Commuinty 镜像站板块&lt;/a>留言 Leave a comment at &lt;a class="link" href="https://c.cra.moe/c/cra-service/mirrors/9" target="_blank" rel="noopener"
+>CRA Commuinty Mirrors Feedback&lt;/a>(（请使用学校邮箱注册/CAS登入 Please use cas to login the forum.)&lt;/li>
+&lt;li>在&lt;a class="link" href="https://github.com/sustech-cra/issues/" target="_blank" rel="noopener"
+>https://github.com/sustech-cra/issues/&lt;/a>留言。 Open an issue at &lt;a class="link" href="https://github.com/sustech-cra/issues/" target="_blank" rel="noopener"
+>https://github.com/sustech-cra/issues/&lt;/a>.&lt;/li>
+&lt;li>Email &lt;a href="mailto:cra@sustech.edu.cn">cra@sustech.edu.cn&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="广告mirrorz-教育网软件源镜像整合站">【广告】MirrorZ: 教育网软件源镜像整合站&lt;/h2>
+&lt;p>&lt;img src="./mirrorz.svg" alt="" />&lt;/p>
+&lt;h3 id="简介">简介&lt;/h3>
+&lt;p>套用一下苹果的广告，Your next MirrorS is not MirrorS, it&amp;rsquo;s MirrorZ. 本项目意在将国内主要镜像的信息整合在一个网站上，满足大家的各种寻找开源软件，系统镜像地址的需求。&lt;/p>
+&lt;p>网站：&lt;a class="link" href="https://mirrorz.org/" target="_blank" rel="noopener"
+>https://mirrorz.org&lt;/a>&lt;/p>
+&lt;p>项目地址：&lt;a class="link" href="https://github.com/tuna/mirrorz" target="_blank" rel="noopener"
+>tuna/mirrorz&lt;/a>&lt;/p>
+&lt;p>&lt;img src="./mirrorz.png" alt="MirrorZ的关于页面" />&lt;/p>
+&lt;h3 id="动机">动机&lt;/h3>
+&lt;p>虽然国内的镜像站较多，但是镜像之间是异构的。这个异构并不是指底层的技术栈不同，而是指给用户呈现的内容有所差异，毕竟各个镜像站的选择不同。&lt;/p>
+&lt;p>举个例子，有一天群友问为啥 TUNA 的 OpenWrt 镜像中没有 snapshot，我们自然解释了&lt;a class="link" href="https://github.com/tuna/issues/issues/1076" target="_blank" rel="noopener"
+>原因&lt;/a>，但用户真的就没有镜像可以使用了吗？其实还是有的，我们在 &lt;a href="https://mirrorz.org/list/openwrt">https://mirrorz.org/list/openwrt&lt;/a> 中逐一寻找，可以发现 HIT 的镜像站中就有 &lt;a class="link" href="https://mirrors.hit.edu.cn/openwrt/snapshots/targets/" target="_blank" rel="noopener"
+>snapshot 相关镜像&lt;/a>。&lt;/p>
+&lt;p>另一个例子就是，一位 Arch Linux 用户发现他使用的镜像源同步不太行，准备找个更新一点的镜像，除了去 Arch Linux 官网查找（不是所有镜像都有官网显示镜像同步状态），一种办法自然是去各个镜像站查看状态，但一个个翻镜像实在太困难，有一个整合页面该多好，于是 &lt;a href="https://mirrorz.org/list/archlinux">https://mirrorz.org/list/archlinux&lt;/a> 中就有相应状态的显示。&lt;/p>
+&lt;h3 id="状态">状态&lt;/h3>
+&lt;p>目前该项目已经基本可用，已经有了国内多个高校镜像的加入（截至2月28日，已加入mirrorZ的教高校镜像站有：清华大学，北京外国语大学，中国科学技术大学，上海交通大学，东莞理工学院，&lt;strong>南方科技大学&lt;/strong>，北京交通大学，南京邮电大学，西安交通大学，同济大学，重庆大学，电子科技大学，哈尔滨工业大学，南京大学，华中科技大学，大连东软信息学院，兰州大学）。&lt;/p>
+&lt;p>该项目还在火热开发中，更多功能希望大家提出。&lt;/p>
+&lt;p>mirrorZ更推出「命令行一键换各种源和镜像站测速的脚本」，名为 oh-my-mirrorz，其想法来自 &lt;a class="link" href="http://github.com/tuna/oh-my-tuna" target="_blank" rel="noopener"
+>oh-my-tuna&lt;/a>，在终端执行&lt;code>curl https://mirrorz.org/oh-my-mirrorz.py | python3&lt;/code>即可使用。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 172; flex-basis: 414px">
+&lt;a href="https://blog.sustcra.com/p/sustech-mirrors-public-ip/mirrorz-ubuntu.png" data-size="2718x1572">&lt;img src="https://blog.sustcra.com/p/sustech-mirrors-public-ip/mirrorz-ubuntu.png"
+srcset="https://blog.sustcra.com/p/sustech-mirrors-public-ip/mirrorz-ubuntu_hu25268ca6cea611f01cffd06c260b1c92_325802_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/sustech-mirrors-public-ip/mirrorz-ubuntu_hu25268ca6cea611f01cffd06c260b1c92_325802_1024x0_resize_box_2.png 1024w"
+width="2718"
+height="1572"
+loading="lazy"
+alt="例：查询包含ubuntu软件源的镜像站">
+&lt;/a>
+&lt;figcaption>例：查询包含ubuntu软件源的镜像站&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>目前可用的功能（从 url 中基本可以看见所有用法）：&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">https://mirrorz.org/
+https://mirrorz.org/os/ArchLinux
+https://mirrorz.org/app/Git
+https://mirrorz.org/font
+https://mirrorz.org/list
+https://mirrorz.org/list/pypi
+https://mirrorz.org/list/%5B0-9%5D%2B
+https://mirrorz.org/site
+https://mirrorz.org/site/BFSU
+https://mirrorz.org/site/OpenTUNA/Y
+https://mirrorz.org/about
+The following urls are &lt;span class="k">for&lt;/span> static webpage, you can use w3m/lynx to view them
+https://mirrorz.org/_/
+https://mirrorz.org/_/about
+More usage of static webpage is documented in the above url
+https://mirrorz.org/oh-my-mirrorz.py
+Use the above script &lt;span class="k">for&lt;/span> speed test!
+curl https://mirrorz.org/oh-my-mirrorz.py &lt;span class="p">|&lt;/span> python3
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="参考">参考&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.v2ex.com/t/751410" target="_blank" rel="noopener"
+>MirrorZ: 教育网软件源镜像整合站&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CRATalk #2 南科wiki：提供知识，记录轶事</title><link>https://blog.sustcra.com/p/cratalk-2-sustc-wiki/</link><pubDate>Tue, 12 Jan 2021 16:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/cratalk-2-sustc-wiki/</guid><description>&lt;img src="https://blog.sustcra.com/p/cratalk-2-sustc-wiki/cover.png" alt="Featured image of post CRATalk #2 南科wiki：提供知识，记录轶事" />&lt;h1 id="cratalk-2-南科wiki提供知识记录轶事-providing-knowledge-and-recording-anecdotes">CRATalk #2 南科wiki：提供知识，记录轶事 Providing knowledge and recording anecdotes&lt;/h1>
+&lt;p>如维基百科的创始人吉米·威尔士所言，维基百科的使命是为每个人提供免费的知识。南科wiki的创始人行到水穷处更说，南科wiki不仅希望为读者提供知识，更希望为同学们提供集合信息与记录学校轶事的平台。&lt;/p>
+&lt;p>As Jimmy Wales, the founder of Wikipedia, said, the mission of Wikipedia is to provide free knowledge to everyone. 行到水穷处(Xing Dao Shui Qiong Chu), the founder of SUSTC wiki, said that SUSTC wiki not only wants to provide knowledge to readers, but also wants to provide a platform for students to gather information and record school anecdotes.&lt;/p>
+&lt;p>南科wiki的愿景是什么，如何编写一篇严谨而吸引读者的wiki条目？本次CRA Talk，我们邀请了南科wiki的创始同学行到水穷处，一起讨论南科wiki的过去与可能的未来。&lt;/p>
+&lt;p>What is the vision of the SUSTC wiki and how to write a rigorous and engaging wiki entry for readers? In this CRA Talk, we invited the founder of SUSTC wiki for discussing the past and possible future of SUSTC wiki together.&lt;/p>
+&lt;p>（由于他即将毕业，本次CRATalk同时也将是南科wiki的招新宣讲。）&lt;/p>
+&lt;p>(Since he will be graduating soon, this CRATalk will also be a recruitment talk for the SUSTC wiki.)&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 121; flex-basis: 291px">
+&lt;a href="https://blog.sustcra.com/p/cratalk-2-sustc-wiki/homepage.png" data-size="1866x1534">&lt;img src="https://blog.sustcra.com/p/cratalk-2-sustc-wiki/homepage.png"
+srcset="https://blog.sustcra.com/p/cratalk-2-sustc-wiki/homepage_hua15c1563fb2af1c80611a84c23d58bb0_623732_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cratalk-2-sustc-wiki/homepage_hua15c1563fb2af1c80611a84c23d58bb0_623732_1024x0_resize_box_2.png 1024w"
+width="1866"
+height="1534"
+loading="lazy"
+alt="南科wiki主页">
+&lt;/a>
+&lt;figcaption>南科wiki主页&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="workshop大纲-toc">Workshop大纲 TOC&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>南科wiki的愿景&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>wiki，维基百科与南科 wiki&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>南科 wiki 的发展历程&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>有趣的条目&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>如何撰写一篇有吸引读者而又不失严谨性的条目&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The vision of SUSTC wiki&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>wiki, Wikipedia and SUSTC wiki&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The development of the SUSTC wiki&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Interesting articles&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>How to write an article that appeals to readers without losing rigor&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="活动信息-event-information">活动信息 Event Information&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>主讲人：陈宇恒 (行到水穷处)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>时间：&lt;strong>2021/01/17&lt;/strong> 19:00 UTC +08:00&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>活动形式：线下 + 线上会议&lt;/p>
+&lt;ul>
+&lt;li>地点：一教303&lt;/li>
+&lt;li>腾讯会议 ID：821 963 124&lt;/li>
+&lt;li>会议密码：172186&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Speaker：Yuheng Chen (行到水穷处)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Time: &lt;strong>2021/01/17&lt;/strong> 19:00 UTC +08:00&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Event Format: Offline Pre + Online Meeting&lt;/p>
+&lt;ul>
+&lt;li>Venue: Teaching Building 1-303&lt;/li>
+&lt;li>Tencent Meeting ID: 821 963 124&lt;/li>
+&lt;li>Conference Password: 172186&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="参考-reference">参考 Reference&lt;/h2>
+&lt;ul>
+&lt;li>南科wiki主页/SUSTC wiki homepage: &lt;a class="link" href="https://sustc.wiki/" target="_blank" rel="noopener"
+>https://sustc.wiki/&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CRAtalk #1 SUSTech Mirrors Misc</title><link>https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/</link><pubDate>Wed, 04 Nov 2020 16:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/</guid><description>&lt;img src="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/cover.jpg" alt="Featured image of post CRAtalk #1 SUSTech Mirrors Misc" />&lt;p>&lt;em>The English version is in the second part of the article.&lt;/em>&lt;/p>
+&lt;h2 id="南方科技大学开源软件镜像站现已开放给校内各位师生使用">南方科技大学开源软件镜像站现已开放给校内各位师生使用&lt;/h2>
+&lt;p>由科学计算工程中心创办，计算机研究协会维护的南方科技大学开源软件镜像站现已正式开放给校内各位师生使用！您可以通过&lt;strong>域名 &lt;a class="link" href="http://mirrors.sustech.edu.cn" target="_blank" rel="noopener"
+>mirrors.sustech.edu.cn&lt;/a> (http/https) 或IP 172.18.6.198&lt;/strong> 访问镜像站。镜像站目前提供Ubuntu, Debian, CentOS, Pypi, Anaconda等知名Linux发行版和开源软件的下载镜像。（完整镜像列表请见表格）&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 154; flex-basis: 371px">
+&lt;a href="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot.png" data-size="2086x1346">&lt;img src="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot.png"
+srcset="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot_hu21e41b53bb0b3d8035b7fd8eae0ef215_496692_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot_hu21e41b53bb0b3d8035b7fd8eae0ef215_496692_1024x0_resize_box_2.png 1024w"
+width="2086"
+height="1346"
+loading="lazy"
+alt="南方科技大学开源软件镜像站">
+&lt;/a>
+&lt;figcaption>南方科技大学开源软件镜像站&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h3 id="有关公网访问和新增镜像的调查问卷">有关公网访问和新增镜像的调查问卷&lt;/h3>
+&lt;p>目前，镜像站仅允许来自校园网的访问。&lt;strong>如果您希望在校外通过公网访问镜像，请填写下方的调查问卷，相关结果将被反馈给科学与工程计算中心和信息中心，用于争取开放镜像站的公网访问。&lt;/strong>&lt;/p>
+&lt;p>您也可以通过填写调查问卷问卷或在 &lt;a class="link" href="https://github.com/sustech-cra/issues" target="_blank" rel="noopener"
+>https://github.com/sustech-cra/issues&lt;/a> 新建Issue的方式建议南科大镜像站为某个开源项目镜像。&lt;/p>
+&lt;p>调查问卷：&lt;a class="link" href="https://wj.qq.com/s2/7480461/a2b2/" target="_blank" rel="noopener"
+>https://wj.qq.com/s2/7480461/a2b2/&lt;/a>&lt;/p>
+&lt;h2 id="cratalk-1-sustech-mirrors-misc">CRAtalk #1 SUSTech Mirrors Misc&lt;/h2>
+&lt;p>&lt;figure style="flex-grow: 66; flex-basis: 160px">
+&lt;a href="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster.jpg" data-size="2000x3000">&lt;img src="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster.jpg"
+srcset="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster_hub3dd0a35de6211b7e75922145b6c5386_1106783_480x0_resize_q75_box.jpg 480w, https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster_hub3dd0a35de6211b7e75922145b6c5386_1106783_1024x0_resize_q75_box.jpg 1024w"
+width="2000"
+height="3000"
+loading="lazy"
+alt="活动海报">
+&lt;/a>
+&lt;figcaption>活动海报&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>如何搭建一个开源软件镜像站？镜像站中的软件等内容又是如何保持同步的？南科大的开源软件镜像站又有什么不为人知的历史？在本周周日，我们将会举办一次有关镜像站的Workshop，介绍南科大开源镜像站的相关信息，并向大家简要介绍如何更换为校内镜像源以加速开源软件下载和更新，欢迎一起来玩！&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>时间：2020年11月8日19:00-20:00&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>地点：一教 510&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>主讲人：张淮化清，王子勤，樊青远&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>腾讯会议：256 110 539 密码：172186&lt;/p>
+&lt;p>&lt;em>链接：（会议模式）https://meeting.tencent.com/s/SwcQ0RNRtRZy （直播模式）https://meeting.tencent.com/l/Lg2VvYDb0Jh3&lt;/em>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="附件南科大镜像站现有软件镜像列表">附件：南科大镜像站现有软件镜像列表&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">名称&lt;/th>
+&lt;th style="text-align:center">介绍&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">CRAN&lt;/td>
+&lt;td style="text-align:center">R 语言的可执行文件、源代码和说明文件，也收录了各种用户撰写的软件包&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">CTAN&lt;/td>
+&lt;td style="text-align:center">TeX 的各种发行版、软件包和文档&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">alpine&lt;/td>
+&lt;td style="text-align:center">Alpine Linux 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">anaconda&lt;/td>
+&lt;td style="text-align:center">用于科学计算的 Python 发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">apache&lt;/td>
+&lt;td style="text-align:center">Apache 基金会赞助的各个项目&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">archlinux&lt;/td>
+&lt;td style="text-align:center">Arch Linux 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">archlinuxcn&lt;/td>
+&lt;td style="text-align:center">由 Arch Linux 中文社区驱动的非官方用户仓库，包含中文用户常用软件、工具、字体/美化包等&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">armbian&lt;/td>
+&lt;td style="text-align:center">Armbian（面向 ARM 单板机的发行版）的软件源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">centos&lt;/td>
+&lt;td style="text-align:center">CentOS 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">debian-nonfree&lt;/td>
+&lt;td style="text-align:center">Debian Linux 的非自由软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">debian-security&lt;/td>
+&lt;td style="text-align:center">Debian Linux 的安全更新&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">debian&lt;/td>
+&lt;td style="text-align:center">Debian Linux 的官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">deepin-cd&lt;/td>
+&lt;td style="text-align:center">Deepin Linux 的安装镜像&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">deepin&lt;/td>
+&lt;td style="text-align:center">Deepin Linux 的官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">docker-ce&lt;/td>
+&lt;td style="text-align:center">Docker Community Edition 的安装包&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">epel&lt;/td>
+&lt;td style="text-align:center">企业版 Linux 附加软件包&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">fedora-altarch&lt;/td>
+&lt;td style="text-align:center">Fedora Linux 额外平台的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">fedora&lt;/td>
+&lt;td style="text-align:center">Fedora Linux 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">homebrew-bottles&lt;/td>
+&lt;td style="text-align:center">homebrew-bottles&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">homebrew&lt;/td>
+&lt;td style="text-align:center">Homebrew/Linuxbrew 的 taps（软件包描述文件 Git 仓库）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">kali-images&lt;/td>
+&lt;td style="text-align:center">Kali Linux 的安装镜像&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">kali&lt;/td>
+&lt;td style="text-align:center">Kali Linux 的官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">manjaro&lt;/td>
+&lt;td style="text-align:center">Manjaro Linux 的官方软件源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">opensuse&lt;/td>
+&lt;td style="text-align:center">openSUSE 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">openwrt&lt;/td>
+&lt;td style="text-align:center">OpenWrt/LEDE 软件包镜像源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">pypi&lt;/td>
+&lt;td style="text-align:center">Python 软件包索引源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">raspberrypi&lt;/td>
+&lt;td style="text-align:center">一些专为树莓派提供的 Debian 软件包&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">raspbian&lt;/td>
+&lt;td style="text-align:center">为树莓派编译的 Debian 系统软件源&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">ros&lt;/td>
+&lt;td style="text-align:center">ROS提供一系列程序库和工具以帮助软件开发者创建机器人应用软件&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">ros2&lt;/td>
+&lt;td style="text-align:center">ROS (Robot Operating System) 2.0 版本&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">ubuntu-ports&lt;/td>
+&lt;td style="text-align:center">armhf, arm64 以及 powerpc 等平台的 Ubuntu 软件仓库&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">ubuntu-releases&lt;/td>
+&lt;td style="text-align:center">包含近几年发行的 Ubuntu 的镜像&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">ubuntu&lt;/td>
+&lt;td style="text-align:center">流行的 Linux 发行版 Ubuntu 的安装镜像和官方软件包仓库&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="sustech-open-source-software-mirrors-starts-to-serve-for-all-sustech-members">SUSTech Open Source Software Mirrors Starts to Serve for All SUSTech Members!&lt;/h1>
+&lt;p>&lt;figure style="flex-grow: 154; flex-basis: 371px">
+&lt;a href="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot.png" data-size="2086x1346">&lt;img src="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot.png"
+srcset="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot_hu21e41b53bb0b3d8035b7fd8eae0ef215_496692_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/screenshot_hu21e41b53bb0b3d8035b7fd8eae0ef215_496692_1024x0_resize_box_2.png 1024w"
+width="2086"
+height="1346"
+loading="lazy"
+alt="SUSTech Open Source Mirror">
+&lt;/a>
+&lt;figcaption>SUSTech Open Source Mirror&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Founded by the Center for Science and Computing Engineering(), Computer Research Association to maintain the Southern University of Science and Technology Open Source Software Mirror Station is now officially open to all students and faculty on campus to use! You can access the mirror site through the &lt;strong>domain &lt;a class="link" href="http://mirrors.sustech.edu.cn" target="_blank" rel="noopener"
+>mirrors.sustech.edu.cn&lt;/a> (http/https) or IP 172.18.6.198&lt;/strong>. The mirror site currently provides downloadable images of well-known Linux distributions and open source software such as Ubuntu, Debian, CentOS, Pypi, Anaconda, etc.&lt;/p>
+&lt;h3 id="survey-on-public-ip-access-and-mirror-requests">Survey on Public IP Access and Mirror Requests&lt;/h3>
+&lt;p>Currently, the mirror site is only accessible from the campus network. **If you wish to access the mirror from off-campus via the public network, please fill out the questionnaire below and the results will be sent back to the Science and Engineering Computing Center and Information Center for use in the effort to open up public access to the mirror site. **&lt;/p>
+&lt;p>You can also suggest that the SUSTech mirror site mirror an additional open source project by filling out the survey questionnaire or by creating a new Issue at &lt;a class="link" href="https://github.com/sustech-cra/issues" target="_blank" rel="noopener"
+>https://github.com/sustech-cra/issues&lt;/a>.&lt;/p>
+&lt;p>Survey questionnaire: &lt;a class="link" href="https://wj.qq.com/s2/7480461/a2b2/" target="_blank" rel="noopener"
+>https://wj.qq.com/s2/7480461/a2b2/&lt;/a>&lt;/p>
+&lt;h2 id="cratalk-1-sustech-mirrors-misc-1">CRAtalk #1 SUSTech Mirrors Misc&lt;/h2>
+&lt;p>&lt;figure style="flex-grow: 66; flex-basis: 160px">
+&lt;a href="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster.jpg" data-size="2000x3000">&lt;img src="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster.jpg"
+srcset="https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster_hub3dd0a35de6211b7e75922145b6c5386_1106783_480x0_resize_q75_box.jpg 480w, https://blog.sustcra.com/p/cratalk-1-sustech-mirrors-misc/poster_hub3dd0a35de6211b7e75922145b6c5386_1106783_1024x0_resize_q75_box.jpg 1024w"
+width="2000"
+height="3000"
+loading="lazy"
+alt="Poster">
+&lt;/a>
+&lt;figcaption>Poster&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>How to build an open source software mirror? How does the software and other content in the mirror site stay in sync? What&amp;rsquo;s the hidden history of SUSTech&amp;rsquo;s open source software mirror? On Sunday of this week, we&amp;rsquo;ll be hosting a workshop on mirror sites, introducing information about open source mirror sites at SUSTech and briefly explaining how to replace the software source with on-campus mirror sources to speed up open source software downloads and updates, everyone is welcomed!&lt;/p>
+&lt;ul>
+&lt;li>Time: 2020-11-08 19:00-21:00&lt;/li>
+&lt;li>Location: Room 510, Lecture Hall 1&lt;/li>
+&lt;li>POC: Huaqing.Zhanghuai Ziqin.Wang Qingyuan.Fan
+&lt;ul>
+&lt;li>Tencent Meeting: &lt;a class="link" href="https://meeting.tencent.com/s/SwcQ0RNRtRZy" target="_blank" rel="noopener"
+>https://meeting.tencent.com/s/SwcQ0RNRtRZy&lt;/a> Password: 172186&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="notes-and-discussion-of-this-cratalk">Notes and discussion of this CRAtalk&lt;/h2>
+&lt;p>Please download it from &lt;a class="link" href="https://c.cra.moe/" target="_blank" rel="noopener"
+>CRA community&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://c.cra.moe/t/topic/12/3" target="_blank" rel="noopener"
+>https://c.cra.moe/t/topic/12/3&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>【活动推广】中国科学技术大学第七届信息安全大赛</title><link>https://blog.sustcra.com/p/ustc-hackergame-2020/</link><pubDate>Sat, 31 Oct 2020 23:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/ustc-hackergame-2020/</guid><description>&lt;img src="https://blog.sustcra.com/p/ustc-hackergame-2020/cover.jpeg" alt="Featured image of post 【活动推广】中国科学技术大学第七届信息安全大赛" />&lt;p>&lt;figure style="flex-grow: 74; flex-basis: 179px">
+&lt;a href="https://blog.sustcra.com/p/ustc-hackergame-2020/poster.jpeg" data-size="1280x1707">&lt;img src="https://blog.sustcra.com/p/ustc-hackergame-2020/poster.jpeg"
+srcset="https://blog.sustcra.com/p/ustc-hackergame-2020/poster_hu362fbad22023ee8f0af13f693c975a8b_172200_480x0_resize_q75_box.jpeg 480w, https://blog.sustcra.com/p/ustc-hackergame-2020/poster_hu362fbad22023ee8f0af13f693c975a8b_172200_1024x0_resize_q75_box.jpeg 1024w"
+width="1280"
+height="1707"
+loading="lazy"
+alt="海报">
+&lt;/a>
+&lt;figcaption>海报&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>2020 年度中国科学技术大学第七届信息安全大赛即将开幕。中科大信息安全大赛自 2014 年起已经连续举办六届，往届比赛均顺利举行，影响甚广、规模巨大。&lt;/p>
+&lt;p>本系列比赛自第四届（2017 年）起邀请其他高校的学生来参加，总参加人数在 2000 人左右。&lt;/p>
+&lt;p>在去年的第六届信息安全大赛中，总共有 2682 人注册，1904 人至少完成了一题。比赛期间所有人合计提交了 17098 次 flag，其中约 57.44% 为正确的提交。题目分为 4 类，包含了综合技能、程序逆向与漏洞利用、密码学与数学和网站安全类题目，在具有一定教育意义的同时也不失趣味性。例如，“献给最好的你”一题结合当时某 Android 病毒应用肆虐的背景，提高了参赛者的安全意识和对不明软件的警惕性；“韭菜银行”一题有关区块链与智能合约的安全性；而“Flag 红包”一题通过流行的“成语接龙红包”的形式，带领选手了解图论、博弈论等算法知识。&lt;/p>
+&lt;h3 id="时间安排">时间安排&lt;/h3>
+&lt;p>正式比赛时间：2020 年 10 月 31 日 中午 12:00 ～ 11 月 7 日 中午 12:00 （线上赛）&lt;/p>
+&lt;h3 id="比赛网址">比赛网址&lt;/h3>
+&lt;p>&lt;a class="link" href="https://hack.lug.ustc.edu.cn" target="_blank" rel="noopener"
+>https://hack.lug.ustc.edu.cn&lt;/a>&lt;/p>
+&lt;p>&lt;em>参赛前请认真阅读参赛须知：&lt;a class="link" href="https://hack.lug.ustc.edu.cn/terms/" target="_blank" rel="noopener"
+>https://hack.lug.ustc.edu.cn/terms/&lt;/a>&lt;/em>&lt;/p>
+&lt;h2 id="奖品">奖品！&lt;/h2>
+&lt;h3 id="打榜奖">打榜奖&lt;/h3>
+&lt;p>&lt;strong>南科大校内排行榜前三且进入总榜单前100&lt;/strong>的同学，我们将送出树莓派4b一台。（2G内存版本）&lt;/p>
+&lt;h3 id="参与奖">参与奖&lt;/h3>
+&lt;p>在Hackergame 2020中完成出&lt;strong>两题及以上&lt;/strong>的南科大同学，均可在赛后领取一份以领取一份Debian安装盘（Debian10.4 amd64）。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 115; flex-basis: 276px">
+&lt;a href="https://blog.sustcra.com/p/ustc-hackergame-2020/debian-box.png" data-size="1494x1298">&lt;img src="https://blog.sustcra.com/p/ustc-hackergame-2020/debian-box.png"
+srcset="https://blog.sustcra.com/p/ustc-hackergame-2020/debian-box_hue3bff10ad852e216a980950223b45c73_277772_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/ustc-hackergame-2020/debian-box_hue3bff10ad852e216a980950223b45c73_277772_1024x0_resize_box_2.png 1024w"
+width="1494"
+height="1298"
+loading="lazy"
+alt="Debian盒装安装媒介">
+&lt;/a>
+&lt;figcaption>Debian盒装安装媒介&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h4 id="领奖方式">领奖方式&lt;/h4>
+&lt;p>若需领取奖品，请您&lt;strong>在比赛时在您的昵称后加上“_sustech”&lt;/strong>，并在赛后将您的昵称与成绩截图发至 &lt;a href="mailto:cra@sustech.edu.cn">cra@sustech.edu.cn&lt;/a> (请将邮件标题改为“&lt;strong>hackgame2020+您的昵称&lt;/strong>”）以方便我们在赛后确认您的比赛成绩。&lt;/p></description></item><item><title>CRA-ShareLaTeX</title><link>https://blog.sustcra.com/p/cra-sharelatex-intro/</link><pubDate>Thu, 15 Oct 2020 23:00:00 +0800</pubDate><guid>https://blog.sustcra.com/p/cra-sharelatex-intro/</guid><description>&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/cover.jpeg" alt="Featured image of post CRA-ShareLaTeX" />&lt;h1 id="cra-sharelatex-妈妈再也不用担心我的-overleaf-掉线了">CRA-ShareLaTeX-妈妈再也不用担心我的 Overleaf 掉线了&lt;/h1>
+&lt;p>[The English version is in the second part of the article.](#Introducing CRA-ShareLaTeX: The Self-hosted Overleaf on Campus)&lt;/p>
+&lt;p>相信对每一位南科大的同学来说LaTeX都不陌生，在许多工科课程上，你都能听到他的名字。作为一门排版语言，Latex在数学/工程领域应用颇广，但由于Latex的复杂编译程序，中文支持问题和动辄好几G的软件空间，让不少同学望而却步。往往是纸上写好公式，编译好几个小时。&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>LaTeX&lt;/strong>，是一种基于&lt;a class="link" href="https://zh.wikipedia.org/wiki/TeX" target="_blank" rel="noopener"
+>TEX&lt;/a>的&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e6%8e%92%e7%89%88" target="_blank" rel="noopener"
+>排版&lt;/a>系统，由&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e7%be%8e%e5%9b%bd" target="_blank" rel="noopener"
+>美国&lt;/a>&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%a7%91%e5%ad%a6" target="_blank" rel="noopener"
+>计算机科学&lt;/a>家&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e8%8e%b1%e6%96%af%e5%88%a9%c2%b7%e5%85%b0%e4%bc%af%e7%89%b9" target="_blank" rel="noopener"
+>莱斯利·兰伯特&lt;/a>在20世纪80年代初期开发，利用这种格式系统的处理，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，不必一一亲自去设计或校对，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e6%95%b0%e5%ad%a6" target="_blank" rel="noopener"
+>数学&lt;/a>公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e7%a7%91%e6%8a%80" target="_blank" rel="noopener"
+>科技&lt;/a>和&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e6%95%b0%e5%ad%a6" target="_blank" rel="noopener"
+>数学&lt;/a>、&lt;a class="link" href="https://zh.wikipedia.org/wiki/%e7%89%a9%e7%90%86" target="_blank" rel="noopener"
+>物理&lt;/a>文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。&lt;/p>
+&lt;/blockquote>
+&lt;p>在线LaTeX编辑器&lt;a class="link" href="https://www.overleaf.com/project" target="_blank" rel="noopener"
+>Overleaf&lt;/a>的出现解决了本地LaTeX的许多问题，它能让写作者直接通过浏览器编辑LaTeX代码，并提供“所见即所得”的即时编译结果。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 174; flex-basis: 418px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro.jpg" data-size="1920x1102">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro.jpg"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro_hu6f0ded4c9a4932f59971f05128dfdd21_194408_480x0_resize_q75_box.jpg 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro_hu6f0ded4c9a4932f59971f05128dfdd21_194408_1024x0_resize_q75_box.jpg 1024w"
+width="1920"
+height="1102"
+loading="lazy"
+alt="Overleaf官网简介">
+&lt;/a>
+&lt;figcaption>Overleaf官网简介&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>可惜的是，在学校访问互联网上的Overleaf还是会出现访问缓慢，掉线等连接上的问题。同时，免费版的overleaf也&lt;strong>无法实现多人协作（如下图，能够支持10人协作的账号收费15USD/月）和文档历史记录等对于团队项目至关重要的feature&lt;/strong>。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 148; flex-basis: 356px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price.png" data-size="1920x1293">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price_huedfe21adfdf7df29b767365e72f419bf_337503_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price_huedfe21adfdf7df29b767365e72f419bf_337503_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1293"
+loading="lazy"
+alt="Overleaf订阅的价格">
+&lt;/a>
+&lt;figcaption>Overleaf订阅的价格&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1_hu5531529c1cfe3fa05986df290026adb5_861523_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1_hu5531529c1cfe3fa05986df290026adb5_861523_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="sharelatex界面，与overleaf基本一致">
+&lt;/a>
+&lt;figcaption>sharelatex界面，与overleaf基本一致&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>为了让更多同学体验到LaTeX这门排版语言的魅力，并减少大家使用overleaf的障碍。南科大计算机协会与科学计算中心合作部署的&lt;a class="link" href="https://sharelatex.cra.moe/" target="_blank" rel="noopener"
+>校内 ShareLaTeX服务&lt;/a>*（sharelatex和overleaf已经合并，两者代指的是同一个服务）*现已上线。本服务基于&lt;a class="link" href="https://github.com/overleaf/overleaf" target="_blank" rel="noopener"
+>sharelatex的开源版本&lt;/a>部署，并添加了完整的中文支持。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3_hu5531529c1cfe3fa05986df290026adb5_609960_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3_hu5531529c1cfe3fa05986df290026adb5_609960_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="公示与代码高亮支持">
+&lt;/a>
+&lt;figcaption>公示与代码高亮支持&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>同时，CRA-ShareLaTeX更支持不限人数的协作和不限制时间的文档编译，以优化同学们在撰写group project时的使用体验。&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2_hu5531529c1cfe3fa05986df290026adb5_545891_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2_hu5531529c1cfe3fa05986df290026adb5_545891_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="引文支持">
+&lt;/a>
+&lt;figcaption>引文支持&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="如何体验">如何体验&lt;/h2>
+&lt;p>由于软件的限制，CRA-ShareLaTeX暂时无法开放自助注册。&lt;strong>如果您想体验CRA-ShareLaTeX，请您发送一封主题为“sharelatex测试”的邮件至&lt;a class="link" href="mailto:service@cra.moe" >service@cra.moe&lt;/a>。我们将会在第一时间给您发送开通的确认邮件。&lt;/strong>&lt;/p>
+&lt;p>如果您对这项服务有任何疑问或是需要帮助，也欢迎您发邮件至&lt;a class="link" href="mailto:service@cra.moe" >service@cra.moe&lt;/a>。&lt;/p>
+&lt;h2 id="参考">参考&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.overleaf.com/learn" target="_blank" rel="noopener"
+>Overleaf文档&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="introducing-cra-sharelatex-the-self-hosted-overleaf-on-campus">Introducing CRA-ShareLaTeX: The Self-hosted Overleaf on Campus&lt;/h1>
+&lt;p>The LaTeX is an familiar typesetting language to every student of SUSTech, and you may have heard his name in many engineering courses. As a typesetting language, Latex is widely used in math/engineering fields, but many students are discouraged by Latex&amp;rsquo;s complex compiler configuration, Chinese support issues and Gigabytes of installation packages.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>LaTeX&lt;/strong> (&lt;a class="link" href="https://en.wikipedia.org/wiki/Help:IPA/English" target="_blank" rel="noopener"
+>/ˈlɑːtɛx/&lt;/a> &lt;a class="link" href="https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key" target="_blank" rel="noopener"
+>&lt;em>LAH-tekh&lt;/em>&lt;/a> or &lt;a class="link" href="https://en.wikipedia.org/wiki/Help:IPA/English" target="_blank" rel="noopener"
+>/ˈleɪtɛx/&lt;/a> &lt;a class="link" href="https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key" target="_blank" rel="noopener"
+>&lt;em>LAY-tekh&lt;/em>&lt;/a>[&lt;a class="link" href="https://en.wikipedia.org/wiki/LaTeX#cite_note-1" target="_blank" rel="noopener"
+>1]&lt;/a>), stylized within the system as &lt;strong>LATEX&lt;/strong>, is a &lt;a class="link" href="https://en.wikipedia.org/wiki/Software_system" target="_blank" rel="noopener"
+>software system&lt;/a> for document preparation.[&lt;a class="link" href="https://en.wikipedia.org/wiki/LaTeX#cite_note-Lamport1986-2" target="_blank" rel="noopener"
+>2]&lt;/a> When writing, the writer uses &lt;a class="link" href="https://en.wikipedia.org/wiki/Plain_text" target="_blank" rel="noopener"
+>plain text&lt;/a> as opposed to the &lt;a class="link" href="https://en.wikipedia.org/wiki/Formatted_text" target="_blank" rel="noopener"
+>formatted text&lt;/a> found in &lt;a class="link" href="https://en.wikipedia.org/wiki/WYSIWYG" target="_blank" rel="noopener"
+>&amp;ldquo;What You See Is What You Get&amp;rdquo;&lt;/a> word processors like &lt;a class="link" href="https://en.wikipedia.org/wiki/Microsoft_Word" target="_blank" rel="noopener"
+>Microsoft Word&lt;/a>, &lt;a class="link" href="https://en.wikipedia.org/wiki/LibreOffice_Writer" target="_blank" rel="noopener"
+>LibreOffice Writer&lt;/a> and &lt;a class="link" href="https://en.wikipedia.org/wiki/Pages_%28word_processor%29" target="_blank" rel="noopener"
+>Apple Pages&lt;/a>. The writer uses &lt;a class="link" href="https://en.wikipedia.org/wiki/Markup_language" target="_blank" rel="noopener"
+>markup&lt;/a> tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as bold and italics), and to add &lt;a class="link" href="https://en.wikipedia.org/wiki/Citation" target="_blank" rel="noopener"
+>citations&lt;/a> and &lt;a class="link" href="https://en.wikipedia.org/wiki/Cross-reference" target="_blank" rel="noopener"
+>cross-references&lt;/a>. A &lt;a class="link" href="https://en.wikipedia.org/wiki/TeX" target="_blank" rel="noopener"
+>TeX&lt;/a> distribution such as &lt;a class="link" href="https://en.wikipedia.org/wiki/TeX_Live" target="_blank" rel="noopener"
+>TeX Live&lt;/a> or &lt;a class="link" href="https://en.wikipedia.org/wiki/MikTeX" target="_blank" rel="noopener"
+>MikTeX&lt;/a> is used to produce an output file (such as &lt;a class="link" href="https://en.wikipedia.org/wiki/Portable_Document_Format" target="_blank" rel="noopener"
+>PDF&lt;/a> or &lt;a class="link" href="https://en.wikipedia.org/wiki/Device_independent_file_format" target="_blank" rel="noopener"
+>DVI&lt;/a>) suitable for printing or &lt;a class="link" href="https://en.wikipedia.org/wiki/Digital_distribution" target="_blank" rel="noopener"
+>digital distribution&lt;/a>.&amp;ndash;Wikipedia&lt;/p>
+&lt;/blockquote>
+&lt;p>The advent of the online LaTeX editor &lt;a class="link" href="https://www.overleaf.com/project" target="_blank" rel="noopener"
+>Overleaf&lt;/a> solved many of the problems of native LaTeX, allowing writers to edit LaTeX code directly from their browser and preview the rendered document instantly..&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 174; flex-basis: 418px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro.jpg" data-size="1920x1102">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro.jpg"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro_hu6f0ded4c9a4932f59971f05128dfdd21_194408_480x0_resize_q75_box.jpg 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-com-intro_hu6f0ded4c9a4932f59971f05128dfdd21_194408_1024x0_resize_q75_box.jpg 1024w"
+width="1920"
+height="1102"
+loading="lazy"
+alt="Overleaf Offical Site">
+&lt;/a>
+&lt;figcaption>Overleaf Offical Site&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>Unfortunately, accessing Overleaf on the campus internet still has some issues like slow access speed, dropped connections, and other connectivity issues. &lt;strong>Also, the free version of Overleaf does not allow for multi-person collaboration (as shown below, accounts capable of supporting 10 people collaboration charge 15USD/month) and document history, which are critical features for team projects&lt;/strong>.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 148; flex-basis: 356px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price.png" data-size="1920x1293">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price_huedfe21adfdf7df29b767365e72f419bf_337503_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/overleaf-price_huedfe21adfdf7df29b767365e72f419bf_337503_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1293"
+loading="lazy"
+alt="Overleaf subscription">
+&lt;/a>
+&lt;figcaption>Overleaf subscription&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1_hu5531529c1cfe3fa05986df290026adb5_861523_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-1_hu5531529c1cfe3fa05986df290026adb5_861523_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="The browser interface of CRA-ShareLaTeX">
+&lt;/a>
+&lt;figcaption>The browser interface of CRA-ShareLaTeX&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>To allow more students to experience LaTeX as a typographic language and to reduce the barriers to people using it. The &lt;a class="link" href="https://sharelatex.cra.moe/" target="_blank" rel="noopener"
+>on-campus ShareLaTeX service&lt;/a> (sharelatex and overleaf have been merged to refer to the same service), deployed by the Computer Research Association of SUSTech (CRA) in cooperation with the Center for Computational Science and Engineering (CCSE), is now online. The service is based on &lt;a class="link" href="https://github.com/overleaf/overleaf" target="_blank" rel="noopener"
+>the open source version of sharelatex&lt;/a>, with full Chinese language support and code highligt feature added.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3_hu5531529c1cfe3fa05986df290026adb5_609960_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-3_hu5531529c1cfe3fa05986df290026adb5_609960_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="Equation and code highlighting">
+&lt;/a>
+&lt;figcaption>Equation and code highlighting&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;p>CRA-ShareLaTeX also supports unlimited number of collaborators and unlimited time to compile documents to optimize the students' experience when writing group projects.&lt;/p>
+&lt;p>&lt;figure style="flex-grow: 173; flex-basis: 417px">
+&lt;a href="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2.png" data-size="1920x1105">&lt;img src="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2.png"
+srcset="https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2_hu5531529c1cfe3fa05986df290026adb5_545891_480x0_resize_box_2.png 480w, https://blog.sustcra.com/p/cra-sharelatex-intro/sharelatex-2_hu5531529c1cfe3fa05986df290026adb5_545891_1024x0_resize_box_2.png 1024w"
+width="1920"
+height="1105"
+loading="lazy"
+alt="Quoting support">
+&lt;/a>
+&lt;figcaption>Quoting support&lt;/figcaption>
+&lt;/figure>&lt;/p>
+&lt;h2 id="how-to-use">How to use?&lt;/h2>
+&lt;p>Due to software limitations, CRA-ShareLaTeX is currently unavailable for self-registration. **If you would like to try CRA-ShareLaTeX, please send an email with the subject &amp;ldquo;sharelatex test&amp;rdquo; to &lt;a class="link" href="mailto:service@cra.moe" >service@cra.moe&lt;/a>. We will send you a confirmation email as soon as possible. **&lt;/p>
+&lt;p>If you have any questions about this service or need assistance, you are also welcome to send an email to &lt;a class="link" href="mailto:service@cra.moe" >service@cra.moe&lt;/a>.&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.overleaf.com/learn" target="_blank" rel="noopener"
+>Overleaf document&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
