@@ -7,13 +7,14 @@ lastmod: 2021-02-28T16:00:00.00+08:00
 slug: "sustech-mirrors-public-ip"
 image: "about.png"
 tags : [                                    
-"events"
+"service"
 ]
 categories : [                              
-"events"
+"service"
 ]
 keywords : [                                
-"wiki",
+"mirrors",
+"mirrorz",
 ]
 ---
 
